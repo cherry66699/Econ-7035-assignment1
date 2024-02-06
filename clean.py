@@ -3,7 +3,7 @@ import pandas as pd
 # Get the input file paths and output file path from command line arguments
 input1 = "C:/Users/22899/Desktop/7035--AI of business  liujing/assignment1/respondent_contact.csv"
 input2 = "C:/Users/22899/Desktop/7035--AI of business  liujing/assignment1/respondent_other.csv"
-output = "C:/Users/22899/Desktop/7035--AI of business  liujing/assignment1/clean_data.csv"
+output = "C:/Users/22899/Desktop/7035--AI of business  liujing/assignment1/respondent_cleaned.csv"
 
 # Step 1: Merge the two input data files based on the ID value
 df1 = pd.read_csv(input1)
